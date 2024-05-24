@@ -1,0 +1,64 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = address_bk
+build_property.RootNamespace = address_bk
+build_property.ProjectDir = C:\Users\loku\OneDrive\Dokumentet\New York University Msc Comp.Science\MY .NET Project\address_bk\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\loku\OneDrive\Dokumentet\New York University Msc Comp.Science\MY .NET Project\address_bk
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/loku/OneDrive/Dokumentet/New York University Msc Comp.Science/MY .NET Project/address_bk/Views/Auth/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/loku/OneDrive/Dokumentet/New York University Msc Comp.Science/MY .NET Project/address_bk/Views/Auth/UserRegister.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxVc2VyUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/loku/OneDrive/Dokumentet/New York University Msc Comp.Science/MY .NET Project/address_bk/Views/BookContacts/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va0NvbnRhY3RzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/loku/OneDrive/Dokumentet/New York University Msc Comp.Science/MY .NET Project/address_bk/Views/BookContacts/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va0NvbnRhY3RzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/loku/OneDrive/Dokumentet/New York University Msc Comp.Science/MY .NET Project/address_bk/Views/BookContacts/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va0NvbnRhY3RzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/loku/OneDrive/Dokumentet/New York University Msc Comp.Science/MY .NET Project/address_bk/Views/BookContacts/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va0NvbnRhY3RzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/loku/OneDrive/Dokumentet/New York University Msc Comp.Science/MY .NET Project/address_bk/Views/BookContacts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va0NvbnRhY3RzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/loku/OneDrive/Dokumentet/New York University Msc Comp.Science/MY .NET Project/address_bk/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/loku/OneDrive/Dokumentet/New York University Msc Comp.Science/MY .NET Project/address_bk/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/loku/OneDrive/Dokumentet/New York University Msc Comp.Science/MY .NET Project/address_bk/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/loku/OneDrive/Dokumentet/New York University Msc Comp.Science/MY .NET Project/address_bk/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/loku/OneDrive/Dokumentet/New York University Msc Comp.Science/MY .NET Project/address_bk/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-mpdwunzgac

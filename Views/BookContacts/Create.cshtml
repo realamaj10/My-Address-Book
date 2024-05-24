@@ -1,0 +1,71 @@
+﻿@model address_bk.Models.BookContacts
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h4>Create a Contact</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label  asp-for="FirstName" class="control-label m1"></label>
+                <input  asp-for="FirstName" class="form-control m1" />
+                <span asp-validation-for="FirstName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label  asp-for="LastName" class="control-label m1"></label>
+                <input  asp-for="LastName" class="form-control m1" />
+                <span asp-validation-for="LastName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label  asp-for="FatherName" class="control-label m1"></label>
+                <input  asp-for="FatherName" class="form-control m1" />
+                <span asp-validation-for="FatherName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label  asp-for="MotherName" class="control-label m1"></label>
+                <input  asp-for="MotherName" class="form-control m1" />
+                <span asp-validation-for="MotherName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label  asp-for="EmailAddr" class="control-label m1"></label>
+                <input  asp-for="EmailAddr" class="form-control m1" />
+                <span asp-validation-for="EmailAddr" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label  asp-for="AddrLine1" class="control-label m1"></label>
+                <textarea  asp-for="AddrLine1" class="form-control m1"></textarea>
+                <span asp-validation-for="AddrLine1" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label  asp-for="AddrLine2" class="control-label m1"></label>
+                <textarea  asp-for="AddrLine2" class="form-control m1"></textarea>
+                <span asp-validation-for="AddrLine2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label  asp-for="MobileNumber" class="control-label m1"></label>
+                <input  asp-for="MobileNumber" class="form-control m1" />
+                <span asp-validation-for="MobileNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label  asp-for="CityName" class="control-label m1"></label>
+                <input  asp-for="CityName" class="form-control m1" />
+                <span asp-validation-for="CityName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary m2" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a class="text-decoration-none m1" asp-action="Index">BACK TO LIST</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

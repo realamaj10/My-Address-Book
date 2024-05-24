@@ -1,0 +1,62 @@
+﻿@model address_bk.Models.User
+@{
+    ViewData["Title"] = "Register";
+    
+}
+
+<div class="row  justify-content-center align-items-center mt-5">
+    <div class="col-sm-12 col-md-12 col-lg-4">
+        <div class="card card-outline card-primary">
+            
+            <div class="card-body">
+                <p class="login-box-msg"><b>REGISTER</b></p>
+                <form method="post">
+
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Name" asp-for="Name">
+                       
+
+                    </div>
+                    <b> <span asp-validation-for="Name" class="text-danger mb-1"></span></b>
+                    <div class="input-group mb-3">
+                        <input type="email" class="form-control" placeholder="Email" asp-for="EmailAddr">
+                        <br />
+
+                    </div>
+                    <b><span asp-validation-for="EmailAddr" class="text-danger mb-1"></span></b>
+                    <div class="input-group mb-3">
+                        <input type="password" class="form-control" placeholder="Password" asp-for="Password">
+                        <br />
+
+                    </div>
+                    <b><span asp-validation-for="Password" class="text-danger mb-1"></span></b>
+                    <div class="input-group mb-3">
+                        <input type="password" class="form-control" placeholder="Confirm Password" asp-for="ConfirmPassword">
+                       <br />
+
+                    </div>
+                    <b><span asp-validation-for="ConfirmPassword" class="text-danger mb-1"></span></b>
+
+                    <div class="input-group mb-3">
+                        <b><span class="text-danger mb-1">@TempData["ErrorMessage"]</span></b>
+
+                    </div>
+
+                    <div class="row">
+                        <div class="col-8">
+                            
+                        </div>
+                        
+                        <div class="col-4 ">
+                            <button type="submit" class="btn btn-primary btn-block">Register</button>
+                        </div>
+                        
+                    </div>
+                </form>
+
+            </div>
+            
+        </div>
+        
+    </div>
+</div>

@@ -1,0 +1,46 @@
+﻿@model address_bk.Models.Auth
+@{
+    ViewData["Title"] = "Login";
+    
+}
+
+<div class="row  justify-content-center align-items-center mt-5">
+    <div class="col-sm-12 col-md-12 col-lg-4">
+        <!-- /.login-logo -->
+        <div class="card card-outline card-primary">
+          
+            <div class="card-body">
+                <p class="login-box-msg"><b>LOGIN</b></p>
+
+                <form method="post">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="User Name" asp-for="UserName">
+                        
+                    </div>
+                    <b> <span asp-validation-for="UserName" class="text-danger mb-1"></span></b>
+                    <b> <spanclass class="text-danger mb-1">@TempData["ErrorMessage"] </ span ></b>
+                    <div class="input-group mb-3">
+                        <input type="password" class="form-control" placeholder="Password" asp-for="Password">
+                       
+                    </div>
+                    <b> <span asp-validation-for="Password" class="text-danger mb-1"></span></b>
+                    <b> <spanclass class="text-danger mb-1">@TempData["ErrorMessagePass"] </ span ></b>
+                    <div class="row">
+                        <div class="col-8">
+                           
+                        </div>
+                        <!-- /.col -->
+                        <div class="col-4">
+                            <button type="submit" class="btn btn-primary btn-block">Sign In</button>
+                        </div>
+                        <!-- /.col -->
+                    </div>
+
+                </form>
+
+            </div>
+            <!-- /.card-body -->
+        </div>
+        <!-- /.card -->
+    </div>
+</div>
